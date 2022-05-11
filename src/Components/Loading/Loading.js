@@ -9,6 +9,7 @@ const Loading = () => {
         className=" w-100 d-flex justify-content-center align-items-center"
       >
         <Spinner animation="border" variant="primary" />
+
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import useProducts from "../Hooks/Hooks";
 import ProductsCard from "../ProductsCard/ProductsCard";
 import image from '../../Images/product1.jpg'
 import "./Products.css";
+import Loading from "../Loading/Loading";
 
 const Products = () => {
   const [products] = useProducts();
@@ -15,9 +16,9 @@ const Products = () => {
       <div className="products-card container">
 
 
-        {products.map((product) => (
+        {products.length ? products.map((product) => (
           <ProductsCard key={product._id} product={product} />
-        ))}
+        )) : <Loading></Loading>}
 
       </div>
     </div>

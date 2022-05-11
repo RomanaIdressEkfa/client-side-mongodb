@@ -3,6 +3,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import auth from "../firebase.init";
 import './ManageProducts.css'
 import useProducts from "../Hooks/Hooks";
+import Loading from "../Loading/Loading";
 
 const ManageProducts = () => {
 
@@ -39,19 +40,17 @@ const ManageProducts = () => {
               </tr>
             </thead>
             <tbody>
-
-              {products.map((product) => {
+              {products.length ? products.map((product) => {
                 console.log(product.name);
                 return (
                   <tr>
-
                     <img className="table-img" src={product.image} alt="" />
                     <td className="t-head"> {product.name}</td>
                     <td>{product.price}</td>
                     <td>{product.quantity}</td>
                     <button className="delete btn btn-secondary" onClick={() => handleDelete(product._id)}>Delete</button>
                   </tr>)
-              })}
+              }) : <Loading></Loading>}
             </tbody>
           </table>
         </div>

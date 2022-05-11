@@ -1,17 +1,12 @@
 .footer{
-    height: 400px;
     background: #88BE4C;
     margin-top: 150px;
-    
-
 }
 .img-size{
     width: 100px;
     height: 50px;
     margin-left: 5px;
 }
-
-
 .footer-text{
     color: white;
     display: inline-block;
@@ -21,7 +16,6 @@
 .footer-text-2col{
     color: white;
     display: inline-block;
-    
     margin-top: 40px;
 }
 .icons-social{

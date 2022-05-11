@@ -26,7 +26,7 @@ const Footer = () => {
         <input className="text-black" type="email" name="Email" id="" placeholder="Email" />
         <input type="submit" value="Send" />
       </div>
-      <div className="footer-text col-lg-4 col-12 bg-dark">
+      <div className="footer-text col-lg-4 col-md-4 col-12 bg-dark">
         <h3>About Me</h3>
         <p>
           {" "}
@@ -126,92 +126,3 @@ const Footer = () => {
 
 export default Footer;
 
-// import React from 'react';
-// import logo from '../../images/dress1.jpg'
-// import logo2 from '../../images/dress2.jpg'
-// import logo3 from '../../images/dress3.jpg'
-// import logo4 from '../../images/dress1.jpg'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faFacebookF, } from '@fortawesome/free-brands-svg-icons';
-// import ReactWhatsapp from 'react-whatsapp';
-// import logo1 from '../../images/whatsapp.jpg'
-
-// import './Footer.css';
-// import { Link } from 'react-router-dom';
-// import ShareLink from 'react-facebook-share-link'
-
-// const Footer = () => {
-//   const current = new Date();
-//   const date = `${current.getDate()}/${current.getMonth() + 1}/${current.getFullYear()}`;
-//   return (
-//     <div>
-//       <div>
-
-//         <div className='d-flex bg-dark text-white '>
-//           <div className='w-25 p-4 '>
-//             <h5>About Dress</h5>
-//             <p>Embrace the sunshine in perfect summer dresses from Wonderful Fashion House.</p>
-//           </div>
-//           <div className='w-40 p-4'>
-
-//             <h5>Social Media</h5>
-
-//             <ShareLink link='https://www.facebook.com/romanaidress.ekfa.10'>
-//               {link => (
-//                 <a href={link} target='_blank'><FontAwesomeIcon className=' p-2 icon' icon={faFacebookF} /></a>
-//               )}
-//             </ShareLink>
-//             <span>
-//               <ReactWhatsapp number="01307-957682" message="Hello!!How are you?" />
-//               {link => (
-//                 <img className='whatsapp' src={logo1} alt="" />
-//               )}
-
-//             </span>
-
-
-
-
-
-//           </div>
-//           <div className='w-25 p-4'>
-//             <h5>Contact me</h5>
-//             <p>Phone: 01307-957682</p>
-//             <p>Email: ekfaeshita@gmail.com</p>
-//             <p>District: Tangail</p>
-
-
-//           </div>
-//           <div className='w-25 p-4'>
-//             <h5>Dress Collection</h5>
-
-//             <div className='d-flex grid'>
-//               <img className='img-size img-fluid' src={logo} alt="" />
-//               <img className='img-size img-fluid' src={logo2} alt="" />
-//               <img className='img-size img-fluid' src={logo3} alt="" />
-
-//             </div>
-//             <br />
-//             <div className='d-flex grid'>
-//               <img className='img-size img-fluid' src={logo} alt="" />
-//               <img className='img-size img-fluid' src={logo2} alt="" />
-//               <img className='img-size img-fluid' src={logo3} alt="" />
-
-//             </div>
-//           </div>
-
-//         </div>
-//         <div className='bg-black text-white  p-2 '>
-//           Copyright {date}. All Rights Reserved
-//           <div>
-//             Designed by <b className='text'> Romana Idress Ekfa.</b>
-//           </div>
-//         </div>
-
-
-//       </div>
-//     </div >
-//   );
-// };
-
-// export default Footer;

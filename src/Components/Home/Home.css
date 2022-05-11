@@ -1,5 +1,4 @@
 .home{
-    background-image: url(/src/Images/bg58.jpg);
     background-size: 100%;
 }
 .btn-color{
@@ -14,5 +13,5 @@
     color: #fff;
     border-bottom: 3px solid #000;
     height: 50px;
-    width: 250px;
+    width: 45%;
 }

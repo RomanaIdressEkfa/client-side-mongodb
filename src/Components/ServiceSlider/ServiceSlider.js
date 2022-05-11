@@ -16,7 +16,7 @@ const ServiceSlider = () => {
 
     <div className="mx-auto" >
       <Address></Address>
-      <h2 className="bg-white text-center font-weight-bold my-2 ">Our Fashionable Dress Collection</h2>
+      <h2 className="title-product mx-auto text-black ">Our Fashionable Dress Collection</h2>
       <div className="bg-white text-center container">
         <div className="d-flex picture">
           <img className="img-fluid  picture" src={logo} alt="" />
