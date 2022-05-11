@@ -11,7 +11,7 @@ const ManageProducts = () => {
   const handleDelete = (id) => {
     const proceed = window.confirm("Are you sure ! you want to, delete this item?");
     if (proceed) {
-      fetch(`http://localhost:5000/product/${id}`, {
+      fetch(`https://young-beyond-19521.herokuapp.com/product/${id}`, {
         method: "DELETE",
       })
         .then(res => res.json())
@@ -49,7 +49,7 @@ const ManageProducts = () => {
                     <td className="t-head"> {product.name}</td>
                     <td>{product.price}</td>
                     <td>{product.quantity}</td>
-                    <button className="delete btn btn-primary" onClick={() => handleDelete(product._id)}>Delete</button>
+                    <button className="delete btn btn-secondary" onClick={() => handleDelete(product._id)}>Delete</button>
                   </tr>)
               })}
             </tbody>

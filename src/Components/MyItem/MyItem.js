@@ -10,7 +10,7 @@ const MyItem = () => {
   const [dress, setDress] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/myproduct?email=${user?.email}`)
+    fetch(`https://young-beyond-19521.herokuapp.com/myproduct?email=${user?.email}`)
       .then(res => res.json())
       .then(data => setDress(data));
   }, [user]);

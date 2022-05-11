@@ -33,7 +33,7 @@ const ProductDetail = () => {
       const quantity = Number(q) - 1 > 0 ? Number(q) - 1 : 0;
       const updateProduct = { name, price, shortDescription, quantity, image, serviceProvider }
 
-      fetch(`http://localhost:5000/products/${id}`, {
+      fetch(`https://young-beyond-19521.herokuapp.com/products/${id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -61,7 +61,7 @@ const ProductDetail = () => {
     const quantity = Number(q) + Number(input);
     const updateProduct = { name, price, shortDescription, quantity, image, serviceProvider }
 
-    fetch(`http://localhost:5000/products/${id}`, {
+    fetch(`https://young-beyond-19521.herokuapp.com/products/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
