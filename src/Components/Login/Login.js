@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import "./Login.css";
 import { FcGoogle } from "react-icons/fc";
+import logo from '../../Images/img.jpg'
 import {
   useAuthState,
   useSendPasswordResetEmail,
@@ -99,9 +100,10 @@ const Login = () => {
       <ToastContainer />
       <br />
       <p className="or-border m-auto mt-4 mb-3">Or</p>
-      <button onClick={() => signInWithGoogle()} className="button-social">
+      {/* <button onClick={() => signInWithGoogle()} className="button-social">
         <FcGoogle />
-      </button>
+      </button> */}
+      <img onClick={() => signInWithGoogle()} src={logo} alt="" className="google" />
     </div>
   );
 };
