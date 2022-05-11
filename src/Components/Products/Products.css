@@ -11,10 +11,11 @@
 }
 .button-product{
     width: 120px;
-    background-color: #cf97be;
+    background-color:#005C9D;
     border: none;
     height: 40px;
     border-radius: 5px;
+    padding: 20px 30px;
 }
 .button-product:hover{
     background-color: black;

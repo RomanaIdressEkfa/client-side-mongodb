@@ -6,7 +6,7 @@ const Address = () => {
     <div>
       <div className="bg-white">
         <h1 className="title-product mx-auto text-black">Our Address</h1>
-        <div className="row address-container m-0">
+        <div className="row address-container">
           <div className="col-lg-3 col-12 address ">
             <h2 > Import & Export Agency</h2>
             <p>

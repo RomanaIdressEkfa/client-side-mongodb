@@ -1,14 +1,13 @@
 .card-images{
-    width: 100%;
+    width: 250px;
     border-radius:10px;
+    height: 200px;
     
 }
 .card{
     border-radius:5px;
     background-color: white;
     border: none;
-    /* width: 350px!important; */
-
 }
 #card:hover{
     box-shadow: 0px 5px 10px 0px white ;
@@ -20,17 +19,26 @@
     color: black;
 }
 .supplier{
-    color : rgb(29, 80, 60);
+    color :brown;
+    font-size: 20px;
 }
 .button-product-card{
     width: 100%;
-    background-color: #cf97be;
+    background-color: #005C9D;
     border: none;
     height: 40px;
     border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    color:white;
 }
 .button-product-card:hover{
     background-color: black;
     color: white;
     transition: ease-in 0.5s;
+}
+.border{
+    box-shadow: 5px 5px 10px;
+    background-color:gray;
+    padding: 20px;
 }
