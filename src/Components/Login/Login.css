@@ -8,8 +8,8 @@
 }
 .login-forms{
     margin: 8px;
-    width: 500px;
-    height: 40px;
+    width: 50%;
+    height: 50px;
     border: none;
     border-radius: 5px;
     border-bottom: 1px solid rgb(102, 94, 94);
@@ -34,5 +34,6 @@
 }
 .google{
     width: 260px;
-    height: 90px;
+    height: 70px;
+    margin-bottom: 20px;
 }
