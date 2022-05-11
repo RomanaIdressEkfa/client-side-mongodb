@@ -66,7 +66,7 @@ const Login = () => {
         type="email"
         name="Email"
         id=""
-        placeholder="Email"
+        placeholder="Enter your Email"
       />
       <br />
       <input
@@ -75,12 +75,11 @@ const Login = () => {
         type="password"
         name="Password"
         id=""
-        placeholder="Password"
+        placeholder="Enter your Password"
       />
       <p className="mt-3">
         You haven't an account ? <Link to="/signup">Create a account</Link>
       </p>
-
       <button
         className="button-reset"
         onClick={async () => {

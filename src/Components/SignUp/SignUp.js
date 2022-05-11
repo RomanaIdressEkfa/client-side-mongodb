@@ -16,7 +16,6 @@ const SignUp = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-
   const [createUserWithEmailAndPassword, user, loading, error] =
     useCreateUserWithEmailAndPassword(auth, {
       sendEmailVerification: true,
@@ -57,9 +56,8 @@ const SignUp = () => {
 
           name="Email"
           id=""
-          placeholder="Email"
+          placeholder="Enter your Email"
           onBlur={(e) => setEmail(e.target.value)}
-
         />
         <br />
         <input
@@ -68,7 +66,7 @@ const SignUp = () => {
 
           name="Password"
           id=""
-          placeholder="Password"
+          placeholder="Enter your Password"
           onBlur={(e) => setPassword(e.target.value)}
         />
         <ToastContainer />

@@ -1,18 +1,21 @@
 .login{
     margin-top: 70px;
     margin-bottom: 100px;
-    width: 100%;
+    width: 70%;
+    box-shadow: 5px 5px 10px;
+    background-color:#0980c4eb;
+    margin: auto;
 }
 .login-forms{
     margin: 8px;
-    width: 300px;
+    width: 500px;
     height: 40px;
     border: none;
     border-radius: 5px;
     border-bottom: 1px solid rgb(102, 94, 94);
 }
  input[type="submit"]{
-   background-color: #61dafb;
+   background-color: white;
     border: none;
    width: 150px;
    height: 40px;
