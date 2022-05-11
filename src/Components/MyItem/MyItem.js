@@ -18,7 +18,7 @@ const MyItem = () => {
   return (
     <div>
       <div className="">
-        <div className="container">
+        <div className="container shadow w-75 rounded">
           <table className="table t-head mt-5">
             <thead >
               <tr className="t-head" >
@@ -27,7 +27,6 @@ const MyItem = () => {
                 <th className="t-head">Price</th>
                 <th className="t-head">Quantity</th>
                 <th className="t-head">Email</th>
-
               </tr>
             </thead>
             <tbody>

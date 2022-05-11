@@ -21,7 +21,7 @@ const ProductDetail = () => {
 
 
   const handleDecreesProducts = (id) => {
-    const proceed = window.confirm('are you sure ?')
+    const proceed = window.confirm('Are you sure? Do you want to reduce the amount?')
     if (proceed) {
 
       const name = productDetail.name;
@@ -75,8 +75,6 @@ const ProductDetail = () => {
     e.target.reset();
 
   }
-
-
   return (
     <div>
       <div className="row ms-5 m-0">
