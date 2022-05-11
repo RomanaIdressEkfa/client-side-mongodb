@@ -8,4 +8,5 @@ test
 * Will not show more than 6 data, it has been created.
 * Added login/logout route.
 * Added Sign-in-method like,email/password and google.
-*
+* Already added myItems,addItems and manageItems.
+* Quantity increase and decrease option added.
