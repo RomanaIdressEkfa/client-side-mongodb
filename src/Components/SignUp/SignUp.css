@@ -11,12 +11,12 @@
     border-bottom: 1px solid #000;
     width: 200px;
     text-align: center;
-    bottom: 100px;
-    
-    
-    
+    bottom: 100px; 
 }
 .sign-up{
-    background-image: url(../../Images/bg5.png);
     width: 100%;
+}
+.google{
+    width: 260px;
+    height: 90px;
 }

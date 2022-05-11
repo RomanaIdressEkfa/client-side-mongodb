@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { FcGoogle } from "react-icons/fc";
 import 'react-toastify/dist/ReactToastify.css';
+import logo from '../../Images/img.jpg'
 import "./SignUp.css";
 import {
   useAuthState,
@@ -82,9 +82,7 @@ const SignUp = () => {
         />
         <br />
         <p className="or-border m-auto mt-4 mb-3">Or</p>
-        <button onClick={() => signInWithGoogle()} className="button-social">
-          <FcGoogle />
-        </button>
+        <img onClick={() => signInWithGoogle()} src={logo} alt="" className="google" />
       </div>
     </div>
   );
