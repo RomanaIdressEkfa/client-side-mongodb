@@ -1,0 +1,55 @@
+.footer{
+    height: 400px;
+    background: #88BE4C;
+    margin-top: 150px;
+    
+
+}
+.img-size{
+    width: 100px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+
+.footer-text{
+    color: white;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.footer-text-2col{
+    color: white;
+    display: inline-block;
+    
+    margin-top: 40px;
+}
+.icons-social{
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.icons-social:hover{
+    color: #61dafb;
+}
+.form input[type="email"]{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #fff;
+    opacity: 0.3;
+}
+.form input[type="submit"]{
+    background-color: #61dafb;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+    

@@ -1,0 +1,18 @@
+.home{
+    background-image: url(/src/Images/bg58.jpg);
+    background-size: 100%;
+}
+.btn-color{
+    background-color:#016EB1;
+    border: none;
+}
+.title-product{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 200px;
+    color: #fff;
+    border-bottom: 3px solid #000;
+    height: 50px;
+    width: 250px;
+}

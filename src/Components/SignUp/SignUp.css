@@ -1,0 +1,22 @@
+.button-social{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #61dafb;
+    border: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.or-border{
+    border-bottom: 1px solid #000;
+    width: 200px;
+    text-align: center;
+    bottom: 100px;
+    
+    
+    
+}
+.sign-up{
+    background-image: url(../../Images/bg5.png);
+    width: 100%;
+}

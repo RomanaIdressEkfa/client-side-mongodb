@@ -1,0 +1,16 @@
+.table-img{
+    border-radius: 20px;
+    width: 100px;
+    margin: 0;
+}
+.t-head{
+    margin-left: 50px !important;
+}
+.table{
+    height: 100%;
+    width: 700px;
+}
+.delete{
+    border-radius: 10px;
+    color: #000
+}

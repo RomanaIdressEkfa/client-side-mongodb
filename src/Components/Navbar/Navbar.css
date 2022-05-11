@@ -1,0 +1,37 @@
+.navbar-container{
+    background-color: #2A2016;
+    height: 75px;
+}
+.links{
+    text-decoration: none;
+    color: #fff;
+}
+.links:hover{
+    color: #1b6883;
+    border-radius: 3px;
+    
+}
+.nav-name { 
+    
+    
+    margin-left: 50px;
+    text-decoration: none;
+    color: #fff;
+   
+} 
+
+.nav-logo{
+    margin-left: 50px;
+    margin-top: 10px;
+    
+
+}
+.since{
+    font-size: 15px;
+    
+   
+}
+.logo{
+    width: 70px;
+    height: 50px;
+}

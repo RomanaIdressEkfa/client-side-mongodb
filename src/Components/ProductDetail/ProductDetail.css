@@ -1,0 +1,32 @@
+.button-manage{
+    width: 120px;
+    background-color: #cf97be;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+}
+.detail-card-images{
+   
+    width: 600px;
+    border-radius:10px;
+}
+.detail-card-text{
+    margin-top: 90px;
+    font-weight: 600;
+    color: black;
+}
+#product-detail{
+display: flex;
+justify-content:space-between;
+}
+.manage-button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #cf97be;
+
+}
+.manage-p{
+    font-size: 12px;
+}

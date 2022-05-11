@@ -1,0 +1,104 @@
+.products-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.product{
+    background-size:    cover ;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+.button-product{
+    width: 120px;
+    background-color: #cf97be;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+}
+.button-product:hover{
+    background-color: black;
+    color: white;
+    transition: ease-in 0.5s;
+}
+.product-title{
+
+    position: absolute;
+    right:250px;
+    top: 60%;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 590px) {
+    .products-card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 40px;
+        margin-top: 200px;
+    }
+
+    .nav-name  {
+    
+        font-size: 5px;
+        
+        text-decoration: none;
+        color: #fff;
+       
+    } 
+    .links{
+        font-size:10px;
+    }
+    .home{
+        margin: 0;
+    }
+    .service-img img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    .serviceSlider{
+        display: block;
+    }
+    .services{
+        margin: 0;
+    }
+    .counting-text{
+      display: none;
+    }
+    .title-sells{
+        display: none;
+    }
+    .since{
+        display: none;
+    }
+    .nav-name-text{
+        display: none;
+    }
+    .links-add-items{
+        display: none;
+    }
+    .footer-text{
+        display: none;
+    }
+    .detail-card-images{
+   
+        width: 300px;
+        border-radius:10px;
+    }
+    .table{
+        width: 200px;
+       
+    }
+    .t-head{
+        margin-left: 7px !important;
+        margin: auto;
+    }
+    .product-title{
+        display: none;
+    }
+    .service-slider-text{
+       color: #fff;
+    }
+    
+}
