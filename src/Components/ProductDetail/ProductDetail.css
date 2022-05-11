@@ -1,10 +1,11 @@
 .button-manage{
     width: 120px;
     background-color:#0980c4eb;
-    padding: 10px 18px;
+    padding: 10px 20px;
     border: none;
     height: 40px;
     border-radius: 5px;
+    font-weight:bold;
 }
 .detail-card-images{
    
@@ -25,9 +26,15 @@ justify-content:space-between;
     height: 40px;
     border: none;
     border-radius: 5px;
-    background-color: #cf97be;
-
+    background-color: #0980c4eb;
+    font-weight:bold;
+    
 }
 .manage-p{
     font-size: 12px;
+}
+.add{
+   
+    font-weight:bold;
+    background-color:#0980c4eb;
 }

@@ -103,7 +103,8 @@ const ProductDetail = () => {
             </button>
             <form onSubmit={(e) => handleIncressProducts(productDetail?._id, e)}>
               <input type="number" name="number" id="" />
-              <input type="submit" value="Add" />
+              <br /><br />
+              <input className="bg-secondary add" type="submit" value="Add Quantity" />
             </form>
             <button className="manage-button manage-p ms-2" onClick={handleProducts}>
               Manage products
